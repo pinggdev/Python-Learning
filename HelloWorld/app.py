@@ -7,6 +7,6 @@ price = 10
 # is_published = True
 print(price)
 
-full_name = 'Kevin'
+name = 'Kevin'
 age = 20
 is_new = True

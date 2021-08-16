@@ -33,5 +33,11 @@
 #     Testing for email...
 #     This is the first email...
 # '''
-course = 'Python for beginners'
-print(course[:])
+# course = 'Python for beginners'
+# print(course[:])
+
+first = 'John'
+last = 'Smith'
+message = first + ' [' + last + ' ]' + ' is a coder'
+msg = f'{first} [{last}] is a coder'
+print(msg)

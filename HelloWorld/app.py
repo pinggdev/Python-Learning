@@ -36,8 +36,13 @@
 # course = 'Python for beginners'
 # print(course[:])
 
-first = 'John'
-last = 'Smith'
-message = first + ' [' + last + ' ]' + ' is a coder'
-msg = f'{first} [{last}] is a coder'
-print(msg)
+# first = 'John'
+# last = 'Smith'
+# message = first + ' [' + last + ' ]' + ' is a coder'
+# msg = f'{first} [{last}] is a coder'
+# print(msg)
+
+course = 'Python for Beginners'
+print(course.upper())
+print(course.find('o'))
+print(course.replace('Beginners', 'Absolute Beginners'))

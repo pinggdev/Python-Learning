@@ -42,7 +42,11 @@
 # msg = f'{first} [{last}] is a coder'
 # print(msg)
 
-course = 'Python for Beginners'
-print(course.upper())
-print(course.find('o'))
-print(course.replace('Beginners', 'Absolute Beginners'))
+# course = 'Python for Beginners'
+# print(course.upper())
+# print(course.find('o'))
+# print(course.replace('Beginners', 'Absolute Beginners'))
+
+x = 10
+x += 3 # augmented assignment operator
+print(x)

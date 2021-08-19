@@ -47,6 +47,10 @@
 # print(course.find('o'))
 # print(course.replace('Beginners', 'Absolute Beginners'))
 
-x = 10
-x += 3 # augmented assignment operator
+# x = 10
+# x += 3 # augmented assignment operator
+# print(x)
+
+
+x = (10 + 3) * 2 ** 2
 print(x)

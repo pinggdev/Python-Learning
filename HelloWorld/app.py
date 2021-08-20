@@ -101,11 +101,21 @@
 #     print("It's a lovely day")
 # print("Enjoy your day")
 
-price = 1000000
-has_good_credit = True
+# price = 1000000
+# has_good_credit = True
+#
+# if has_good_credit:
+#     down_payment = 0.1 * price
+# else:
+#     down_payment = 0.2 * price
+# print(f"Down payment: ${down_payment}")
 
-if has_good_credit:
-    down_payment = 0.1 * price
-else:
-    down_payment = 0.2 * price
-print(f"Down payment: ${down_payment}")
+
+
+# Logical Operators
+# has_high_income = False
+has_good_credit = True
+has_criminal_record = True
+
+if has_good_credit and not has_criminal_record:
+    print("Eligible for loan")

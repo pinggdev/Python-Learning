@@ -142,12 +142,21 @@
 
 
 # Weight Converter Program
-weight = int(input("Weight: "))
-unit = input("(L) bs or (K)g: ")
+# weight = int(input("Weight: "))
+# unit = input("(L) bs or (K)g: ")
+#
+# if unit.upper() == "L":
+#     converted = weight * 0.45
+#     print(f"You are {converted} kilos")
+# else:
+#     converted = weight / 0.45
+#     print(f"You are {converted} pounds")
 
-if unit.upper() == "L":
-    converted = weight * 0.45
-    print(f"You are {converted} kilos")
-else:
-    converted = weight / 0.45
-    print(f"You are {converted} pounds")
+
+
+# While Loops
+i = 1
+while i <= 5:
+    print('*' * i)
+    i = i + 1
+print("Done")

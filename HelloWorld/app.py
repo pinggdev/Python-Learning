@@ -177,31 +177,46 @@
 #     print('Sorry, you failed')
 
 # Building the car game
-command = ""
-started = False
+# command = ""
+# started = False
+#
+# while True:
+#     command = input("> ").lower()
+#     if command == "start":
+#         if started:
+#             print("Car is already started!")
+#         else:
+#             started = True
+#             print("Car started...")
+#     elif command == "stop":
+#         if not started:
+#             print("Car is already stopped!")
+#         else:
+#             started = False
+#             print("Car stopped.")
+#     elif command == "help":
+#         print("""
+# start - to start the car
+# stop - to stop the car
+# quit - to quit
+#         """)
+#     elif command == "quit":
+#         break
+#     else:
+#         print("Sorry, I don't understand that!")
 
-while True:
-    command = input("> ").lower()
-    if command == "start":
-        if started:
-            print("Car is already started!")
-        else:
-            started = True
-            print("Car started...")
-    elif command == "stop":
-        if not started:
-            print("Car is already stopped!")
-        else:
-            started = False
-            print("Car stopped.")
-    elif command == "help":
-        print("""
-start - to start the car
-stop - to stop the car
-quit - to quit
-        """)
-    elif command == "quit":
-        break
-    else:
-        print("Sorry, I don't understand that!")
 
+
+
+# For Loop
+# for item in 'Python':
+#     print(item)
+
+# for item in range(5, 10, 2):
+#     print(item)
+
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total += price
+print(f"Total: {total}")

@@ -228,9 +228,23 @@
 #     for y in range(3):
 #         print (f'({x}, {y})')
 
-numbers = [5, 2 ,5, 2, 2]
+# numbers = [5, 2 ,5, 2, 2]
+# for x in numbers:
+#     output = ''
+#     for y in range(x):
+#         output += 'x'
+#     print(output)
+
+
+
+# Lists
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# names[0] = 'Jon'
+# print(names)
+
+numbers = [3, 6, 2, 11, 8, 4, 10]
+max = numbers[0]
 for x in numbers:
-    output = ''
-    for y in range(x):
-        output += 'x'
-    print(output)
+    if x > max:
+        max = x
+print(max)
